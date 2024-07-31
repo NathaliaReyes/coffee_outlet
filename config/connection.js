@@ -11,8 +11,10 @@ if(process.env.DB_URL){
     process.env.DB_PASSWORD,
     {
       host: 'localhost',
-      ort: 5432,
       dialect: 'postgres',
+      dialectOptions: {
+        ssl: false
+      }
     }
   );
 }
@@ -24,5 +26,6 @@ sequelize.authenticate()
   .catch(err => {
     console.error('Unable to connect to the database:', err);
   });
+
 
 module.exports = sequelize;
