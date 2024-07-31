@@ -19,21 +19,6 @@ router.post('/', async (req, res) => {
     }
 });
 
-// This route is for finding a user by name - endpoint: /localhost:3001/api/users/profile --TESTED CHECK!
-// router.get('/profile', withAuth, async (req, res) => {
-//     try {
-//         const userData = await User.findOne({
-//             where: { username: req.body.username }
-//         });
-//         if (!userData) {
-//             res.status(400).json({ message: 'No user found with that username!' });
-//             return;
-//         }
-//         res.status(200).json(userData);
-//     } catch (err) {
-//         res.status(400).json(err);
-//     }
-// });
 
 // This route is for logging in a user - endpoint: /localhost:3001/api/users/login --TESTED CHECK!
 router.post('/login', async (req, res) => {
@@ -63,6 +48,7 @@ router.post('/login', async (req, res) => {
       req.session.save(() => {
         req.session.user_id = userData.id;
         req.session.loggedIn = true;
+        console.log("Session after login: ", req.session);
         
         res.json({ user: userData, message: 'You are now logged in!' });
       });

@@ -6,8 +6,22 @@ const calculatePoints = require('../public/js/calculatePoints');
 
 // GET homepage
 router.get('/', async (req, res) => {
+  console.log("Session data: ", req.session);
+  console.log("loggedIn status:", req.session.loggedIn);
   res.render('homepage', {
     loggedIn: req.session.loggedIn,
+    console: console.log("loggedIn", req.session.loggedIn),
+    console: console.log("HOMEPAGE ROUTE")
+  });
+});
+
+// debugging route
+router.get('/debug', withAuth, (req, res) => {
+  res.render('debug', {
+    loggedIn: req.session.loggedIn,
+    console: console.log("DEBUG ROUTE"),
+    console: console.log("loggedIn", req.session.loggedIn),
+
   });
 });
 

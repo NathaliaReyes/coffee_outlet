@@ -42,6 +42,14 @@ const sess = {
 // This statement is telling the app to use the session created above
 app.use(session(sess));
 
+// Middleware para inicializar loggedIn en false si no está definido
+app.use((req, res, next) => {
+  if (req.session.loggedIn === undefined) {
+    req.session.loggedIn = false;
+  }
+  next();
+});
+
 app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
 
