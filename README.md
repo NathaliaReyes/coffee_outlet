@@ -58,7 +58,7 @@ Please refer to the `Usage` section for more details on how to use the applicati
 ## Usage
 
 1. **Access the application:** Navigate to the deployed application URL. You will be presented with a list of cities in Colorado.
-
+  test
 2. **Select a city:** Click on a city to view a list of all coffee shops in that city.
 
 3. **Create an account or log in:** To interact with the application, you will need to log in. Click on the "Login" button and enter your credentials. If you do not have an account, click on "Sign Up" to create a new account.
