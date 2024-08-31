@@ -58,18 +58,33 @@ Please refer to the `Usage` section for more details on how to use the applicati
 ## Usage
 
 1. **Access the application:** Navigate to the deployed application URL. You will be presented with a list of cities in Colorado.
-  test
-2. **Select a city:** Click on a city to view a list of all coffee shops in that city.
+2.  **Credentials:** I have created some user accounts (email-password) in case you do not want to sign up you will be able to test it.
+   [
+      {
+          "email": "john@example.com"
+          "password": "password123",
+      },
+      {
+          "email": "jane@example.com",
+          "password": "securepass456"
+      },
+      {
+          "email": "samuel@example.com",
+          "password": "strongpassword789"
+      }
+]
 
-3. **Create an account or log in:** To interact with the application, you will need to log in. Click on the "Login" button and enter your credentials. If you do not have an account, click on "Sign Up" to create a new account.
+3. **Select a city:** Click on a city to view a list of all coffee shops in that city.
 
-4. **View a coffee shop:** After logging in, you can view the details of any coffee shop. Navigate to the coffee shop you are interested in to see more details.
+4. **Create an account or log in:** To interact with the application, you will need to log in. Click on the "Login" button and enter your credentials. If you do not have an account, click on "Sign Up" to create a new account.
 
-5. **Post a new coffee shop:** As a user, you can share your experiences by posting new coffee shops. Navigate to the "Add Coffee Shop" section, fill in the details about the coffee shop, and click "Submit". You will earn points for each new coffee shop you add.
+5. **View a coffee shop:** After logging in, you can view the details of any coffee shop. Navigate to the coffee shop you are interested in to see more details.
 
-6. **Provide feedback on a coffee shop:** You can also provide feedback on coffee shops added by yourself or others. Navigate to the coffee shop you want to provide feedback on, enter your feedback in the "Add Feedback" section, and click "Submit".
+6. **Post a new coffee shop:** As a user, you can share your experiences by posting new coffee shops. Navigate to the "Add Coffee Shop" section, fill in the details about the coffee shop, and click "Submit". You will earn points for each new coffee shop you add.
 
-7. **Earn points:** Active participation is encouraged in the Coffee Outlet community. You earn points for adding new coffee shops, which can be viewed in your profile.
+7. **Provide feedback on a coffee shop:** You can also provide feedback on coffee shops added by yourself or others. Navigate to the coffee shop you want to provide feedback on, enter your feedback in the "Add Feedback" section, and click "Submit".
+
+8. **Earn points:** Active participation is encouraged in the Coffee Outlet community. You earn points for adding new coffee shops, which can be viewed in your profile.
 
 ## Credits
 
