@@ -146,7 +146,7 @@ This project is licensed under the terms of the [MIT License](https://opensource
 
 Here are some enhancements planned for future development:
 
-+ **Geolocation:** When a user enters the website, automatically display their location and nearby cafes.
++ **Geolocation:** When a user enters the website, automatically display their location and nearby cafes...
 
 + **Social Login:** Allow users to connect, register, or log in to the application using their Google or Facebook accounts.
 
