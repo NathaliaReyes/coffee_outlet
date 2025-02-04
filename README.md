@@ -43,7 +43,7 @@ Application deployed using Render:
 
 ## Installation
 
-To install this application, you'll need Node.js and npm installed on your computer. Follow these steps:
+To install this application: You'll need Node.js and npm installed on your computer. Follow these steps:
 
 1. Clone this repository to your local machine using `git clone <https://github.com/Nihsad/coffee-outlet.git>` or `git clone <git@github.com:Nihsad/coffee-outlet.git>`.
 2. Navigate to the cloned repository in your terminal `cd coffee-outlet`.
